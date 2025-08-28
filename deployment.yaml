@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: sojiaye/register-app-pipeline:
+          image: sojiaye/register-app-pipeline:JENKINS_API_TOKEN
           resources:
             limits:
               memory: "256Mi"
