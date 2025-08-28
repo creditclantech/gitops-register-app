@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: sojiaye/register-app-pipeline:1.0.0-4
+          image: sojiaye/register-app-pipeline:
           resources:
             limits:
               memory: "256Mi"
